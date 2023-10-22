@@ -110,12 +110,17 @@ h1 {
   text-align: center;
 
 }
-
+.profile-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero__paragraph {
   margin-left: 20px;
   margin-bottom: 35px;
 }
+
 
 .Project-title {
   /* color: var(--clr-article-300); */

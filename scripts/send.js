@@ -1,6 +1,6 @@
 // Text EFFECT 
 const auto = document.querySelector('.hero__title span');
-let words = ["SYED QASIM REHMAN", 'WEB DEVELOPER', 'USING HTML CSS FOR RESPONSIVE WEB AND JAVASCRIPT FOR ANIMATION']
+let words = ["SYED QASIM REHMAN", 'WEB DEVELOPER', 'PROFICINET IN HTML CSS JAVASCRIPT AND REACT JS', 'USING HTML CSS FOR RESPONSIVE WEB AND JAVASCRIPT FOR ANIMATION']
 
 
 let wordIndex = 0;
@@ -33,8 +33,8 @@ typeEffect();
         const navLinks = document.querySelectorAll('nav ul li a');
 
         navLinks.forEach(link => {
-            link.addEventListener('click', function(event) {
-                event.preventDefault();
+            link.addEventListener('click', e => {
+                e.preventDefault();
                 const targetSectionId = link.getAttribute('href');
                 const targetSection = document.querySelector(targetSectionId);
                 
